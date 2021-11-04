@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Hit the DOMBOOM</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+    <link href = "https: //fonts.googleapis.com/css2? family = Roboto: wght @ 700 & display = swap "rel =" stylesheet ">
+</head>
+<body>
+    <header class="header">
+        <img class="header-section--img" src="IMG/logo.png">
+        <ul class="header-menu">
+            <li class="header-menu--item">Premium</li> 
+            <li class="header-menu--item">Help</li>
+            <li class="header-menu--item">Download</li>
+            <li class="header-menu--item">Sign up</li>
+            <li class="header-menu--item--element">Log in</li>
+        
+        <button class="header-hamburger" >
+            <span class="header-hamburger--line1"></span>
+            <span class="header-hamburger--line2"></span>
+            <span class="header-hamburger--line3"></span>
+        </ul>
+        </button>
+    </header>
+
+    <main class="main">
+        <section class="main-section0">
+            <img class="main-section0--buton" src="IMG/muestra-boton.png">
+            <p class="main-section0--hit">Hit</p>
+        </section>
+            <section class="main-section1">
+            <h1 class="main-section1--h1">Music for everyone.</h1>
+            <p class="main-section1--p">Millions of songs. No credit card needed.</p>
+            <button class="main-section1--button">Hit the</button>
+        </section>  
+        <section class="main-section2">
+            <img class="main-section2--img" src="IMG/drumkit.png" alt="">
+            <img onclick= "btn1()" class="main-section2--boton1" src="IMG/muestra-boton.png" onclick="playaudio ('crash.wav')">
+            <img onclick= "btn2()" class="main-section2--boton2" src="IMG/muestra-boton.png">
+            <img onclick= "btn3()" class="main-section2--boton3" src="IMG/muestra-boton.png">
+            <img onclick= "btn4()" class="main-section2--boton4" src="IMG/muestra-boton.png">
+            <img onclick= "btn5()" class="main-section2--boton5" src="IMG/muestra-boton.png">
+            <img onclick= "btn6()" class="main-section2--boton6" src="IMG/muestra-boton.png">
+            <img onclick= "btn7()" class="main-section2--boton7" src="IMG/muestra-boton.png">
+            <img onclick= "btn8()" class="main-section2--boton8" src="IMG/muestra-boton.png">
+            <img onclick= "btn9()" class="main-section2--boton9" src="IMG/muestra-boton.png">
+            <img onclick= "btn10()" class="main-section2--boton10"src="IMG/muestra-boton.png">
+        </section>
+    </main>
+    <audio id="aud1" src="AUDIO/tom1.wav"></audio>
+    <audio id="aud2" src="AUDIO/tom2.wav"></audio>
+    <audio id="aud3" src="AUDIO/tom3.wav"></audio>
+    <audio id="aud4" src="AUDIO/tom4.wav"></audio>
+    <audio id="aud5" src="AUDIO/bombo.wav"></audio>
+    <audio id="aud6" src="AUDIO/crash.wav"></audio>
+    <audio id="aud7" src="AUDIO/hit-hat.wav"></audio>
+    <audio id="aud8" src="AUDIO/redoblante.wav"></audio>
+    <audio id="aud9" src="AUDIO/crash.wav"></audio>
+    <audio id="aud10" src="AUDIO/bombo.wav"></audio>
+
+    <footer class="footer">
+        <section class="footer-section1">
+            <h2 class="footer-section1--h2">Try premium free for 1 month</h2>
+            <p class="footer-section1--p">Play millions of songs ad-free, on-demand and offline.</p>
+            <button class="footer-section1--button">SEE PRICING</button>
+        </section>
+    </footer>
+</body>
+<script src="index.js"></script>
+</html>
+
+
